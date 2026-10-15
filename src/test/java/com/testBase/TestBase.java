@@ -1,7 +1,9 @@
 package com.testBase;
 
+import java.io.FileReader;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.Properties;
 import java.util.Random;
 import org.apache.commons.text.RandomStringGenerator;
 import org.apache.logging.log4j.LogManager;
@@ -12,7 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class TestBase {
 
 	public static WebDriver driver;
-	//public Properties p;
+	public Properties p;
 	public Logger logger; 
 	 
 
@@ -26,9 +28,9 @@ public class TestBase {
 	    	driver.get("https://tutorialsninja.com/demo");//getting url from properties file
 	    	
 	    	//Loading config.properties file
-	 		//FileReader filep=new FileReader("./src//test//resources//config.properties");
-	 		//p=new Properties();
-	 		//p.load(filep);
+	 		FileReader filep=new FileReader("./src//test//resources//config.properties");
+	 		p=new Properties();
+	 		p.load(filep);
 	 		
 	 		//Generate the logs
 			logger=LogManager.getLogger(this.getClass());//******log4j2

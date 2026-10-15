@@ -1,0 +1,6 @@
+2026-10-10 16:54:22 [main] INFO  com.PageObject.AccountRegistrationPage - *********Starting UserLogin testcase**********
+2026-10-10 16:54:26 [main] INFO  com.PageObject.AccountRegistrationPage - click on myaccount
+2026-10-10 16:54:27 [main] INFO  com.PageObject.AccountRegistrationPage - click on login
+2026-10-10 16:54:27 [main] INFO  com.PageObject.AccountRegistrationPage - Providing login details
+2026-10-10 16:54:30 [main] INFO  com.PageObject.AccountRegistrationPage - Valaidating confirmation message
+2026-10-10 16:54:30 [main] INFO  com.PageObject.AccountRegistrationPage - login test is finished
