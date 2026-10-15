@@ -1,0 +1,5 @@
+2026-10-15 16:52:37 [main] INFO  com.stepDefination.SearchProduct - *********Starting SearchProductPage testcase**********
+2026-10-15 16:52:51 [main] INFO  com.stepDefination.SearchProduct - Enter Product Name
+2026-10-15 16:52:51 [main] INFO  com.stepDefination.SearchProduct - Search Product
+2026-10-15 16:52:52 [main] INFO  com.stepDefination.SearchProduct - Valadating correct product
+2026-10-15 16:52:52 [main] INFO  com.stepDefination.SearchProduct - product match
