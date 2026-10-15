@@ -17,7 +17,7 @@ public class AccountRegistartionStep extends TestBase {
 	
 	AccountRegistrationPage acc;
 	HomePage hp;
-	private static final Logger logger = LogManager.getLogger(AccountRegistrationPage.class);
+	private static final Logger logger = LogManager.getLogger();
 	
 	@Given("User is on the homepage")
 	public void user_is_on_the_homepage() throws IOException {

@@ -1,0 +1,11 @@
+2026-10-15 19:53:48 [main] INFO  com.stepDefination.LoginStep - *********Starting UserLogin testcase**********
+2026-10-15 19:53:52 [main] INFO  com.stepDefination.LoginStep - click on myaccount
+2026-10-15 19:53:52 [main] INFO  com.stepDefination.LoginStep - click on login
+2026-10-15 19:53:53 [main] INFO  com.stepDefination.LoginStep - Providing login details
+2026-10-15 19:53:55 [main] INFO  com.stepDefination.LoginStep - Valaidating confirmation message
+2026-10-15 19:53:55 [main] INFO  com.stepDefination.LoginStep - login test is finished
+2026-10-15 19:53:55 [main] INFO  com.stepDefination.SearchProduct - *********Starting SearchProductPage testcase**********
+2026-10-15 19:53:59 [main] INFO  com.stepDefination.SearchProduct - Enter Product Name
+2026-10-15 19:53:59 [main] INFO  com.stepDefination.SearchProduct - Search Product
+2026-10-15 19:53:59 [main] INFO  com.stepDefination.SearchProduct - Valadating correct product
+2026-10-15 19:53:59 [main] INFO  com.stepDefination.SearchProduct - product match

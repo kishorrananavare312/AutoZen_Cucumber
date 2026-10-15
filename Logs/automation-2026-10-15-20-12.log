@@ -1,0 +1,10 @@
+2026-10-15 20:12:03 [main] ERROR com.stepDefination.SearchProduct - Exception occurred during confirm product name: expected [no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='iMac']"}
+  (Session info: chrome=155.0.8059.41)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.48.0', revision: '27f5213 27f5213055e28398a5105b7892b7a3bb2012a6ef'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9864dca79e026cea0815cf9169d0ac67, findElement {value=//a[normalize-space()='iMac'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.41, chrome: {chromedriverVersion: 155.0.8059.79 (a49e2e3d4add..., userDataDir: C:\Users\admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63545}, goog:processID: 13568, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63545/devtoo..., se:cdpVersion: 155.0.8059.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9864dca79e026cea0815cf9169d0ac67] but found [iMac]
+2026-10-15 20:12:03 [main] INFO  com.stepDefination.SearchProduct - Screenshot taken: C:\Users\admin\eclipse-workspace2\Autozen_cucumber\Screenshots\productunmatch_2026.10.15.20.12.03.png

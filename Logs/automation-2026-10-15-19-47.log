@@ -1,0 +1,10 @@
+2026-10-15 19:47:35 [main] INFO  com.PageObject.AccountRegistrationPage - *********Starting Accountregitration testcase**********
+2026-10-15 19:47:39 [main] INFO  com.PageObject.AccountRegistrationPage - click on myaccount
+2026-10-15 19:47:39 [main] INFO  com.PageObject.AccountRegistrationPage - click on register
+2026-10-15 19:47:40 [main] INFO  com.PageObject.AccountRegistrationPage - Providing customer details
+2026-10-15 19:47:44 [main] INFO  com.PageObject.AccountRegistrationPage - Valaidating confirmation message
+2026-10-15 19:47:44 [main] INFO  com.PageObject.LoginPage - *********Starting UserLogin testcase**********
+2026-10-15 19:47:47 [main] INFO  com.PageObject.LoginPage - click on myaccount
+2026-10-15 19:47:47 [main] INFO  com.PageObject.LoginPage - click on login
+2026-10-15 19:47:48 [main] INFO  com.PageObject.LoginPage - Providing login details
+2026-10-15 19:47:50 [main] INFO  com.PageObject.LoginPage - Valaidating confirmation message

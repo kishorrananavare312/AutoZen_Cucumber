@@ -1,0 +1,12 @@
+2026-10-15 19:40:08 [main] INFO  com.PageObject.AccountRegistrationPage - Providing customer details
+2026-10-15 19:40:13 [main] INFO  com.PageObject.AccountRegistrationPage - Valaidating confirmation message
+2026-10-15 19:40:13 [main] INFO  com.PageObject.LoginPage - *********Starting UserLogin testcase**********
+2026-10-15 19:40:16 [main] INFO  com.PageObject.LoginPage - click on myaccount
+2026-10-15 19:40:16 [main] INFO  com.PageObject.LoginPage - click on login
+2026-10-15 19:40:16 [main] INFO  com.PageObject.LoginPage - Providing login details
+2026-10-15 19:40:17 [main] INFO  com.PageObject.LoginPage - Valaidating confirmation message
+2026-10-15 19:40:28 [main] INFO  com.stepDefination.SearchProduct - *********Starting SearchProductPage testcase**********
+2026-10-15 19:40:31 [main] INFO  com.stepDefination.SearchProduct - Enter Product Name
+2026-10-15 19:40:31 [main] INFO  com.stepDefination.SearchProduct - Search Product
+2026-10-15 19:40:32 [main] INFO  com.stepDefination.SearchProduct - Valadating correct product
+2026-10-15 19:40:32 [main] INFO  com.stepDefination.SearchProduct - product match

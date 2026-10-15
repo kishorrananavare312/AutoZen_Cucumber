@@ -20,7 +20,7 @@ public class SearchProduct extends TestBase{
 	HomePage hp;
 	SearchProductPage sp;
 	ProductPage pp;
-	private static final Logger logger = LogManager.getLogger(SearchProduct.class);
+	private static final Logger logger = LogManager.getLogger();
 	
 	
 	@Given("User is on the homepagee")
@@ -49,15 +49,21 @@ public class SearchProduct extends TestBase{
 	
 	@Then("iMac product should be displayed")
 	public void product_should_be_displayed() {
-		
+		try {
 	    pp=new ProductPage(driver);
 	    logger.info("Valadating correct product");
 	    String confirmproduct=pp.Productimac();
-	    
 	    Assert.assertEquals("iMac",confirmproduct);
 		 logger.info("product match");
-	    teardown();
+		}
+	    catch (AssertionError ae) {
+		    logger.error("Exception occurred during confirm product name: " + ae.getMessage());
+		    String screenshotPath = CaptureScreen("productunmatch");
+		    logger.info("Screenshot taken: " + screenshotPath);
+		    Assert.fail("Assertion Failed: " + ae.getMessage());
+		    teardown();
 	}
-
-
+		logger.info("product match test Finished");
+		teardown();
+}
 }

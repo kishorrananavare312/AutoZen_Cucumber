@@ -1,13 +1,20 @@
 package com.testBase;
 
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Date;
 import java.util.Properties;
 import java.util.Random;
+
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.text.RandomStringGenerator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -33,7 +40,7 @@ public class TestBase {
 	 		p.load(filep);
 	 		
 	 		//Generate the logs
-			logger=LogManager.getLogger(this.getClass());//******log4j2
+			logger=LogManager.getLogger();//******log4j2
 	 		
 	    }
 	 
@@ -70,7 +77,7 @@ public class TestBase {
 		        return number + "@" + letters;
 		}
 		
-		/*public String CaptureScreen(String tname) {
+		public String CaptureScreen(String tname) {
 			String timestamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 
 			TakesScreenshot takescreenshot = (TakesScreenshot) driver;
@@ -92,6 +99,6 @@ public class TestBase {
 			}
 
 			return Targepathtfile;
-		}*/
+		}
 }
 

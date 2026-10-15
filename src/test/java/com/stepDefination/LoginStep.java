@@ -5,7 +5,6 @@ import java.io.IOException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
-import com.PageObject.AccountRegistrationPage;
 import com.PageObject.HomePage;
 import com.PageObject.LoginPage;
 import com.PageObject.MyAccountPage;
@@ -19,7 +18,7 @@ public class LoginStep extends TestBase{
 	HomePage hp;
     LoginPage lp;
     MyAccountPage acc;
-	private static final Logger logger = LogManager.getLogger(LoginPage.class);
+	private static final Logger logger = LogManager.getLogger();
 	
 	@Given("User is on the login page")
 	public void user_is_on_the_login_page() throws IOException {
@@ -57,15 +56,14 @@ public class LoginStep extends TestBase{
 	    boolean confirmationpage=acc.confirmmyaccount();
 	    Assert.assertTrue(confirmationpage);
 		}
-	    catch (Exception e) {
-			 logger.error("Exception occurred during login test: " + e.getMessage(), e);
-			 logger.error("Test failed");
-			 //String screenshotPath = CaptureScreen("UserLoginFailure");
-			 //logger.info("Screenshot taken: " + screenshotPath);
-			 Assert.fail("Test failed due to exception: " + e.getMessage());
-			//Assert.fail();
+		catch(AssertionError ae)
+		{
+			logger.error("Exception occurred during login test: " + ae.getMessage());
+		    String screenshotPath = CaptureScreen("UserLoginFailure");
+		    logger.info("Screenshot taken: " + screenshotPath);
+		    Assert.fail("Assertion Failed: " + ae.getMessage());
+		    teardown();
 		}
-	
 		logger.info("login test is finished");
 		teardown();
 	}

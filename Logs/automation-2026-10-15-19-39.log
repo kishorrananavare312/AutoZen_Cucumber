@@ -1,0 +1,3 @@
+2026-10-15 19:39:01 [main] INFO  com.PageObject.AccountRegistrationPage - *********Starting Accountregitration testcase**********
+2026-10-15 19:39:55 [main] INFO  com.PageObject.AccountRegistrationPage - click on myaccount
+2026-10-15 19:39:55 [main] INFO  com.PageObject.AccountRegistrationPage - click on register

@@ -1,16 +1,17 @@
-2026-10-15 16:54:15 [main] INFO  com.PageObject.AccountRegistrationPage - *********Starting Accountregitration testcase**********
-2026-10-15 16:54:19 [main] INFO  com.PageObject.AccountRegistrationPage - click on myaccount
-2026-10-15 16:54:19 [main] INFO  com.PageObject.AccountRegistrationPage - click on register
-2026-10-15 16:54:19 [main] INFO  com.PageObject.AccountRegistrationPage - Providing customer details
-2026-10-15 16:54:24 [main] INFO  com.PageObject.AccountRegistrationPage - Valaidating confirmation message
-2026-10-15 16:54:24 [main] INFO  com.PageObject.LoginPage - *********Starting UserLogin testcase**********
-2026-10-15 16:54:27 [main] INFO  com.PageObject.LoginPage - click on myaccount
-2026-10-15 16:54:27 [main] INFO  com.PageObject.LoginPage - click on login
-2026-10-15 16:54:28 [main] INFO  com.PageObject.LoginPage - Providing login details
-2026-10-15 16:54:28 [main] INFO  com.PageObject.LoginPage - Valaidating confirmation message
-2026-10-15 16:54:29 [main] INFO  com.PageObject.LoginPage - login test is finished
-2026-10-15 16:54:30 [main] INFO  com.stepDefination.SearchProduct - *********Starting SearchProductPage testcase**********
-2026-10-15 16:54:33 [main] INFO  com.stepDefination.SearchProduct - Enter Product Name
-2026-10-15 16:54:33 [main] INFO  com.stepDefination.SearchProduct - Search Product
-2026-10-15 16:54:33 [main] INFO  com.stepDefination.SearchProduct - Valadating correct product
-2026-10-15 16:54:33 [main] INFO  com.stepDefination.SearchProduct - product match
+2026-10-15 20:19:01 [main] INFO  com.stepDefination.AccountRegistartionStep - *********Starting Accountregitration testcase**********
+2026-10-15 20:19:04 [main] INFO  com.stepDefination.AccountRegistartionStep - click on myaccount
+2026-10-15 20:19:05 [main] INFO  com.stepDefination.AccountRegistartionStep - click on register
+2026-10-15 20:19:05 [main] INFO  com.stepDefination.AccountRegistartionStep - Providing customer details
+2026-10-15 20:19:09 [main] INFO  com.stepDefination.AccountRegistartionStep - Valaidating confirmation message
+2026-10-15 20:19:10 [main] INFO  com.stepDefination.LoginStep - *********Starting UserLogin testcase**********
+2026-10-15 20:19:12 [main] INFO  com.stepDefination.LoginStep - click on myaccount
+2026-10-15 20:19:13 [main] INFO  com.stepDefination.LoginStep - click on login
+2026-10-15 20:19:13 [main] INFO  com.stepDefination.LoginStep - Providing login details
+2026-10-15 20:19:14 [main] INFO  com.stepDefination.LoginStep - Valaidating confirmation message
+2026-10-15 20:19:14 [main] INFO  com.stepDefination.LoginStep - login test is finished
+2026-10-15 20:19:15 [main] INFO  com.stepDefination.SearchProduct - *********Starting SearchProductPage testcase**********
+2026-10-15 20:19:17 [main] INFO  com.stepDefination.SearchProduct - Enter Product Name
+2026-10-15 20:19:17 [main] INFO  com.stepDefination.SearchProduct - Search Product
+2026-10-15 20:19:18 [main] INFO  com.stepDefination.SearchProduct - Valadating correct product
+2026-10-15 20:19:18 [main] INFO  com.stepDefination.SearchProduct - product match
+2026-10-15 20:19:18 [main] INFO  com.stepDefination.SearchProduct - product match test Finished

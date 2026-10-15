@@ -1,0 +1,3 @@
+2026-10-15 19:38:06 [main] INFO  com.PageObject.AccountRegistrationPage - *********Starting Accountregitration testcase**********
+2026-10-15 19:38:12 [main] INFO  com.PageObject.LoginPage - *********Starting UserLogin testcase**********
+2026-10-15 19:38:15 [main] INFO  com.stepDefination.SearchProduct - *********Starting SearchProductPage testcase**********

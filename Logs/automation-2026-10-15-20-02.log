@@ -1,0 +1,13 @@
+2026-10-15 20:02:27 [main] INFO  com.stepDefination.AccountRegistartionStep - *********Starting Accountregitration testcase**********
+2026-10-15 20:02:34 [main] INFO  com.stepDefination.AccountRegistartionStep - click on myaccount
+2026-10-15 20:02:34 [main] INFO  com.stepDefination.AccountRegistartionStep - click on register
+2026-10-15 20:02:35 [main] INFO  com.stepDefination.AccountRegistartionStep - Providing customer details
+2026-10-15 20:02:40 [main] INFO  com.stepDefination.AccountRegistartionStep - Valaidating confirmation message
+2026-10-15 20:02:40 [main] INFO  com.stepDefination.LoginStep - *********Starting UserLogin testcase**********
+2026-10-15 20:02:44 [main] INFO  com.stepDefination.LoginStep - click on myaccount
+2026-10-15 20:02:45 [main] INFO  com.stepDefination.LoginStep - click on login
+2026-10-15 20:02:45 [main] INFO  com.stepDefination.LoginStep - Providing login details
+2026-10-15 20:02:47 [main] INFO  com.stepDefination.LoginStep - Valaidating confirmation message
+2026-10-15 20:02:57 [main] ERROR com.stepDefination.LoginStep - Exception occurred during login test: expected [true] but found [false]
+2026-10-15 20:02:57 [main] INFO  com.stepDefination.LoginStep - Screenshot taken: C:\Users\admin\eclipse-workspace2\Autozen_cucumber\Screenshots\UserLoginFailure_2026.10.15.20.02.57.png
+2026-10-15 20:02:57 [main] INFO  com.stepDefination.SearchProduct - *********Starting SearchProductPage testcase**********
